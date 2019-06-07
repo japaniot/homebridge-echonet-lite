@@ -1,0 +1,16 @@
+{
+  "name": "homebridge-echonet-lite",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "homekit",
+    "echonet-lite"
+  ],
+  "engines": {
+    "homebridge": ">= 0.4.0"
+  },
+  "dependencies": {
+    "node-echonet-lite": "0.4.0"
+  }
+}
