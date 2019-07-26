@@ -1,20 +1,22 @@
 {
   "name": "homebridge-echonet-lite",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "lib/index.js",
   "keywords": [
     "homebridge-plugin",
     "homekit",
     "echonet-lite"
   ],
-  "licenses": [{
-    "name": "cc by-nc-sa 4.0",
-    "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
-  }],
+  "licenses": [
+    {
+      "name": "cc by-nc-sa 4.0",
+      "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/"
+    }
+  ],
   "engines": {
     "homebridge": ">= 0.4.0"
   },
   "dependencies": {
-    "node-echonet-lite": "0.4.0"
+    "echonet-lite-more": "0.4.1"
   }
 }
