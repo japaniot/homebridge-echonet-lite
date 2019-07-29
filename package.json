@@ -17,6 +17,7 @@
     "homebridge": ">= 0.4.0"
   },
   "dependencies": {
+    "bobolink": "3.0.0",
     "echonet-lite-more": "0.4.1"
   }
 }
