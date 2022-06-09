@@ -18,6 +18,10 @@
   },
   "dependencies": {
     "bobolink": "3.0.0",
+    "node-echonet-lite": "git+https://github.com/ikob/node-echonet-lite.git"
+  },
+  "dependencies_": {
+    "bobolink": "3.0.0",
     "echonet-lite-more": "0.4.1"
   }
 }
