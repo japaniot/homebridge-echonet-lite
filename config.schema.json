@@ -1,0 +1,25 @@
+{
+  "pluginAlias": "ELPlatform",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type":"object",
+    "properties": {
+      "enableRefreshSwitch": {
+	"type": "boolean",
+	"title": "Refresh button to discover devices",
+	"description": "Add a switch button accessory to re-discover devices",
+	"required": false,
+	"default": false
+      }
+    }
+  },
+  "layout": [
+    {
+      "title": "Common settings",
+      "items": [
+	"enableRefreshSwitch"
+      ]
+    }
+  ]
+}
